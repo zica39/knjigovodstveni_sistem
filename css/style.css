@@ -1,0 +1,191 @@
+body {
+    min-height: 100vh;
+   /*  background: linear-gradient(to left, #dce35b, #45b649); */
+}
+
+/* #pocetni_bilans table{
+	
+	width:100%!important;
+	
+} */
+
+#dnevnik,#dnevnik th,#dnevnik td {
+  text-align:center;
+
+}
+#dnevnik{
+	width:100%;
+}
+#dnevnik input[type=number]{
+	width:100%;
+}
+#dnevnik input[type=number]:last-child{
+	margin-bottom:25px;
+}
+
+
+/* Za sada poseban */
+#popunjeni_dnevnik,#popunjeni_dnevnik th,#popunjeni_dnevnik td {
+
+  vertical-align:middle;
+  text-align:center;
+}
+#popunjeni_dnevnik{
+	width:100%;
+}
+
+#popunjeni_dnevnik td:nth-child(2) p{
+	width:100%;
+	/* float:none!important; */
+	text-align:left;
+}
+
+#popunjeni_dnevnik td:nth-child(2)+ td p{
+	width:100%;
+	text-align:center;
+}
+
+#probni_list,#probni_list th,#probni_list td {
+  text-align:center;
+}
+#probni_list{
+	width:100%;
+}
+
+#zakljucni_list,#zakljucni_list th,#zakljucni_list td {
+  text-align:center;
+}
+#zakljucni_list{
+	width:100%;
+}
+
+
+table {
+  table-layout: fixed;
+}
+
+
+#pocetni_bilans tbody tr:first-child th {
+      background-color: #f9f9f9;
+}
+
+#pocetni_bilans tbody tr:last-child th {
+    background-color: #f9f9f9;
+}
+
+#pocetni_bilans table tr td:last-child {
+      white-space:nowrap;
+	  text-align:right;
+}
+
+#pocetni_bilans em {
+     font-weight:bold;
+}
+
+.a table td, .a table th, .a table tr{
+	background: white;
+	display:flex;
+	border:none!important;
+	width:100%
+}
+
+.b table td, .b table th, .b table tr{
+	background: white;
+	border:none!important;
+	width:100%
+}
+
+table table button {
+	font-size: 0.8em!important;
+    padding: 3px!important;
+}
+table table input[type=text]{
+	width:auto;
+}
+table table input[type=number]{
+	width:80%;
+	margin-left: auto;
+}
+
+#glavna_knjiga{
+	display:flex;
+	flex-wrap:wrap;
+}
+
+#glavna_knjiga #naziv{
+	font-weight:bold;
+	cursor:pointer;
+}
+
+#bilans_stanja tbody tr:first-child th {
+      background-color: #f9f9f9;
+}
+
+#bilans_stanja tbody tr:last-child th {
+    background-color: #f9f9f9;
+}
+
+#bilans_stanja em {
+     font-weight:bold;
+}
+
+#bilans_uspjeha tbody tr:first-child th {
+      background-color: #f9f9f9;
+}
+
+#bilans_uspjeha tbody tr:last-child th {
+    background-color: #f9f9f9;
+}
+
+canvas{
+	position: relative;
+	width:100%; 
+	height:100%;
+}
+
+.nowarp{
+	white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+
+.zakljucen_racun{
+    padding-bottom: 1px;
+    border-bottom: 3px double black;	
+}
+
+.container1{
+    padding:5%;
+}
+.container1 .img{
+    text-align:center;
+}
+.container1 .details{
+    border-left:3px solid #ded4da;
+}
+.container1 .details p{
+    font-size:15px;
+    font-weight:bold;
+}
+
+small {
+display: block;
+line-height: 1.428571429;
+color: #999;
+}
+
+.well {
+ background: #f0ad4e;   
+}
+
+.bd-example-modal-lg .modal-dialog{
+    display: table;
+    position: relative;
+    margin: 0 auto;
+    top: calc(50% - 24px);
+  }
+
+  .bd-example-modal-lg .modal-dialog .modal-content{
+    background-color: transparent;
+    border: none;
+  }
